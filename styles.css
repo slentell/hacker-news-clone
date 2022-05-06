@@ -1,0 +1,132 @@
+.page {
+  background-color: #f6f6ef;
+  margin-left: 7vw;
+  margin-right: 7vw;
+}
+.logo {
+  border: 1px solid white;
+  height: 15px;
+  width: 16px;
+}
+
+.navbar {
+  height: 22px;
+  background-color: #ff6600;
+  transform: translateY(-2%);
+  border-top: solid 1px red;
+  border-bottom: solid 1px red;
+}
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.navbar li {
+  float: left;
+  margin-left: 8px;
+  margin-top: 2px;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 8pt; */
+}
+.navbar a,
+.foot-nav a {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.votearrow {
+  display: inline-flex;
+  width: 10px;
+  height: 10px;
+  border: 0px;
+  margin: 0px 2px 1px;
+  background: url("https://news.ycombinator.com/grayarrow.gif") no-repeat;
+}
+/* .upArrow{
+  display: inline;
+} */
+.nav-inner {
+  text-align: right;
+  margin-right: 3px;
+}
+ol {
+  background-color: #f6f6ef;
+  transform: translateY(-0.5%);
+  color: #828282;
+}
+.link,
+.source {
+  text-decoration: None;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10pt;
+}
+.source {
+  color: #828282;
+  font-size: 8.5pt;
+}
+.info {
+  color: grey;
+  font-size: 8pt;
+  margin-top: 0px;
+  margin-bottom: 4px;
+  padding: 0px;
+  text-indent: 15px;
+}
+.main {
+  background-color: #f6f6ef;
+  border-bottom: 3px solid #ff6600;
+  padding-bottom: 0;
+}
+.announce {
+  text-align: center;
+  margin-top: 15px;
+  color: #828282;
+}
+.more {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.more a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 10pt;
+}
+.foot-nav a {
+  font-size: 10pt;
+}
+.foot-nav {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 46vw;
+  background-color: #f6f6ef;
+  padding: 0;
+}
+.foot-nav li {
+  display: flex;
+  flex-direction: row;
+}
+
+.foot-nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #828282;
+  font-size: 10pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.foot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
